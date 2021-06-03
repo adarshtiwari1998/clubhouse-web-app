@@ -44,3 +44,13 @@ a:hover {
 .ml-1 {
   margin-left: 4px;
 }
+
+/* applayout styling */
+.app_layout {
+  position: relative;
+  background-color: #f2f0e4;
+  height: 100vh;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+}
