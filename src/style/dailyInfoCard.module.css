@@ -10,3 +10,33 @@ border-radius: 1em;
     align-items: flex-start;
     margin-bottom: 0.5em;
 }
+
+.daily_Card > div > span {
+    width: 20%;
+    text-align: center;
+}
+
+.daily_Card > div > div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5em;
+    width: 80%;
+}
+
+.daily_Card span {
+   font-size: 0.675em;
+   color: var(--textColor);
+   font-weight: 500;
+}
+
+.daily_Card p {
+    display: inline-block;
+    width: 195px;
+    margin: 0;
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
