@@ -1,7 +1,8 @@
 import React, {useState} from "react";
 import {Link} from "react-router-dom";
 import style from "../style/phoneConfirmation.module.css";
-import PhoneInput from 'react-phone-number-input'
+import PhoneInput from 'react-phone-number-input';
+
 
 function PhoneConfirmations() {
     const [value, setValue] = useState()
@@ -9,7 +10,7 @@ function PhoneConfirmations() {
     return (
         <div className={style.phoneConfirmationContainer}>
          <Link exact to="/" className={style.backBtn}>
-             
+            <img src="/images/arrow.png" alt="" />
          </Link>
          <h1>Enter Your Phone Number</h1>
          <PhoneInput 
@@ -23,8 +24,11 @@ function PhoneConfirmations() {
         <span> Terms of Services and Privacy Policy. </span>
             Thanks!
          </p>
+         <Link exact to="/code_confirm" className="primaryBtn d-flex align-items-center">
+           Next <img src="/images/nextArrowIcon.svg" className="ml-1" alt="" />
+         </Link>
         </div>
-    )
+    );
 }
 
 export default PhoneConfirmations
