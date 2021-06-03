@@ -1,0 +1,33 @@
+.phoneConfirmationContainer {
+    height: 100vh;
+    background-color: #f2f0e4;
+    padding: 3em 1.7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* vertically align */
+    justify-content: center;   /* horizontally align */
+    position: relative;
+}
+
+.phoneConfirmationContainer h1 {
+    font-size: 1.3em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+}
+
+.phoneConfirmationContainer p {
+    font-size: 0.775em;
+    font-weight: 400;
+    font-stretch: normal;
+    margin: 0;
+    width: 100%;
+    max-width: 270px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.phoneConfirmationContainer p span {
+    font-weight: 500;
+}
