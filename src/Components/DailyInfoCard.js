@@ -6,18 +6,18 @@ function DailyInfoCard() {
     console.log(Data[0].title)
     return (
         <div className={style.daily_Card}>
-         {/* looping here */}
-         {Data.map((item) => {
-             return (
-          <div>
-              <span className="">{item.time}</span>
-              <div>
-                  <span className="">{item.title}</span>
-                  <p>{item.description}</p>
-              </div>
-          </div>
-          );
-         })}
+            {/* looping here */}
+            {Data.map((item) => {
+                return (
+                    <div>
+                        <span className="">{item.time}</span>
+                        <div>
+                            <span className="">{item.title}</span>
+                            <p>{item.description}</p>
+                        </div>
+                    </div>
+                );
+            })}
         </div>
     )
 }
