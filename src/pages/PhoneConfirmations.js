@@ -12,8 +12,8 @@ function PhoneConfirmations() {
          <Link exact to="/" className={style.backBtn}>
             <img src="/images/arrow.png" alt="" />
          </Link>
-         <h1>Enter Your Phone Number</h1>
-         <PhoneInput 
+         <h1 className="mb-2">Enter Your Phone Number</h1>
+         <PhoneInput className={style.phone_input_field}
          defaultCountry="IN"
          international
          placeholder="Enter phone number"
@@ -24,7 +24,7 @@ function PhoneConfirmations() {
         <span> Terms of Services and Privacy Policy. </span>
             Thanks!
          </p>
-         <Link exact to="/code_confirm" className="primaryBtn d-flex align-items-center">
+         <Link exact to="/code_confirm" className="primaryBtn d-flex align-items-center place-items-center">
            Next <img src="/images/nextArrowIcon.svg" className="ml-1" alt="" />
          </Link>
         </div>

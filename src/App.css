@@ -35,3 +35,12 @@ a {
 .primaryBtn:hover {
   color: #fff
 }
+
+
+a:hover {
+  text-decoration: none !important;
+}
+
+.ml-1 {
+  margin-left: 4px;
+}

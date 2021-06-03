@@ -13,7 +13,7 @@ function CodeConfirmations() {
                 <input type="text" style={{width: "100%", border: "none", textAlign: "center", outline: "none"}}/>
                 <p className="mt-2">Didn't Receive it? <span>Tap to resend.</span></p>
             </div>
-            <Link exact to="/allow_notification" className="primaryBtn d-flex align-items-center mt-2">    
+            <Link exact to="/allow_notifications" className="primaryBtn d-flex align-items-center mt-2">    
            Next <img src="/images/nextArrowIcon.svg" className="ml-1" alt="" />
          </Link>
         </div>
