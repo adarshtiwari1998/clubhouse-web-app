@@ -1,0 +1,20 @@
+.room_card_container {
+    background: #fff;
+    padding: 1em 1em;
+    border-radius:  1em;
+    border: none;
+    margin-top: 0.5em;
+}
+
+.room_card_container h6 {
+    font-size: 0.675em;
+    color: var(--textColor);
+    font-weight: 500;
+}
+
+.room_card_container h2 { 
+    font-size: 0.875em;
+    font-weight: 500;
+    line-height: 1;
+    color: #000000;
+}

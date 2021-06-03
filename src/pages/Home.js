@@ -11,8 +11,6 @@ function Home() {
       <Header />
       <div className={style.home_container}>
        <DailyInfoCard />
-      </div>
-      <div className="">
        <RoomInfoCard />
       </div>
     </>
