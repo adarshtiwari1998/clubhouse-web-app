@@ -1,0 +1,12 @@
+.daily_Card{
+background-color: #e7e4d5;
+padding: 0.5em 1em;
+border-radius: 1em;
+}
+
+/* daily_Card > div means implement only the child of this parent class daily_Card not in all div */
+.daily_Card > div {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
