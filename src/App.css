@@ -45,6 +45,10 @@ a:hover {
   margin-left: 4px;
 }
 
+.mr-2 {
+  margin-right: 8px;
+}
+
 /* applayout styling */
 .app_layout {
   position: relative;
