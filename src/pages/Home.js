@@ -4,7 +4,8 @@ import Header from "../Components/Header";
 import RoomInfoCard from "../Components/RoomInfoCard";
 import style from "../style/home.module.css";
 import { AiOutlinePlus } from "react-icons/ai";
-import { BsGrid3X3Gap } from "react-icons/bs"
+import { BsGrid3X3Gap } from "react-icons/bs";
+import SwipeableBottomSheet from "@sergeymyssak/swipeable-bottom-sheet";
 
 function Home() {
   return (
@@ -23,6 +24,11 @@ function Home() {
         <button>
          <BsGrid3X3Gap />
        </button>
+       {/* <SwipeableBottomSheet overflowHeight={4}>
+         <div style={{ height: '40px' }}>
+        Here goes the content of your bottom sheet
+         </div>
+       </SwipeableBottomSheet> */}
       </div>
     </>
   )

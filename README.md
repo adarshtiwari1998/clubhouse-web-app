@@ -5,6 +5,7 @@
 5. react phone number input library
 6. styled components
 7. React icons
+8. react swipeable bottom sheet
 
 There are two layout structure in this webapp
 1. Applayout (loggin in)
