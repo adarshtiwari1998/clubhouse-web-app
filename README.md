@@ -10,3 +10,8 @@
 There are two layout structure in this webapp
 1. Applayout (loggin in)
 2. plan layout(logged out)
+
+
+using this command to forcely download the npm packages when the packages are creating error when installing 
+npm install --force [and the packages name]
+
