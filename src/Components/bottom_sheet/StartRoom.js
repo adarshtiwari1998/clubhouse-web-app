@@ -8,8 +8,8 @@ function StartRoom(props) {
     return (
         <>
         <div className={style.switch_Line}></div>
-          <div className="text-right">
-              <button className={style.addTopicBtn}>
+          <div style={{textAlign: 'right'}}>
+              <button className={style.addTopicBtn}> +
                Add a Topic
               </button>
           </div>
@@ -40,7 +40,7 @@ function StartRoom(props) {
               </button>
           </div>  
           <p>Start a Room {" "}
-         {/* multiple nested if else statement       */}
+         {/* multiple nested if else statement */}
         <span>{room == "closed" ? "for people i choose" : room == "social" ? "with people i follow" : "open to everyone"}</span></p>  
         <div className="text-center">
          <button className={style.letGoBtn}  

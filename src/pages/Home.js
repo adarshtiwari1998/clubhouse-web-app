@@ -26,7 +26,7 @@ function Home() {
       <div className={style.action_btn}>
        <button onClick={() => setSheetVisible(true)}>
         <AiOutlinePlus className="mr-2" />
-         Start a Room Chat
+         Start a Room
        </button>
         <button>
          <BsGrid3X3Gap />
