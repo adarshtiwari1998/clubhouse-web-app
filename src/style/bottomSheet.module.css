@@ -1,6 +1,6 @@
 
 .BottomSheetSection {
-    width: 400px;
+    width: auto !important;
     height: 100%;
 }
 .BottomSheetContainer {
@@ -14,7 +14,8 @@
 .switch_Line {
     position: absolute;
     top: 6px;
-    left: 50%;
+    left: 45%;
+    align-items: center;
     height: 4px;
     width: 35px;
     transform: translateX("-50%");
@@ -75,3 +76,6 @@
     padding: 0.3em 2em;
     text-align: center;
 }
+
+
+  

@@ -6,7 +6,7 @@ import StartRoom from "./bottom_sheet/StartRoom";
 
 function BottomSheet(props) {
     return (
-       <SwipeableBottomSheet style={{width: "34%", margin: "auto"}}
+       <SwipeableBottomSheet style={{width: "34%", maxWidth: "auto", margin: "auto"}}
        open={props.sheetVisible}
         onChange={() => {
          props.setSheetVisible(!props.sheetVisible);

@@ -7,17 +7,33 @@ import { AiOutlinePlus } from "react-icons/ai";
 import { BsGrid3X3Gap } from "react-icons/bs";
 import data from "../Data/RoomCard.json";
 import BottomSheet from "../Components/BottomSheet";
+import loadertwoimg from "../images/loader.gif";
 
 function Home() {
   const [itemsVisible, setItemsVisible] = useState(true);
   const [sheetVisible, setSheetVisible] = useState(false);
   const [sheetCreateRoom, setSheetCreateRoom] = useState(false);  
   const [loaderVisibility, setLoaderVisibility] = useState(false);
-  const[cardId, setCardId] = useState(1);
+  const [cardId, setCardId] = useState(1);
   
   return (
     // jsx fragment
     <>
+    {loaderVisibility ? (
+      <div style={{ 
+      position: "fixed",
+      top: "0",
+      right: "0",
+      bottom: "0",
+      left: "0",
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "center"}}>
+      <img src={loadertwoimg} alt="" />
+      </div>
+    ) : (
+      ""
+    )} 
       <Header />
       <div className={style.home_container}>
        <DailyInfoCard />
@@ -33,12 +49,12 @@ function Home() {
        </button>
        </div>
          <BottomSheet
-         sheetTitle="Start a Room"
+         sheetTitle="Start Room"
          setSheetVisible={(item) => setSheetVisible(item)}
          sheetVisible={sheetVisible}
          cardDetail={data.find((item) => item.id === cardId)}
          setItemsVisible={(item) => setItemsVisible(item)}
-         setSheetCreateRoom = {(item) => {
+         setSheetCreateRoom={(item) => { 
           setLoaderVisibility(true);
           setTimeout(() => {
             setSheetCreateRoom(item);

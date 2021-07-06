@@ -4,15 +4,16 @@ import {FcGlobe} from "react-icons/fc";
 
 
 function StartRoom(props) {
-    const [room, setRoom] = useState("open")
+    const [room, setRoom] = useState("open");
     return (
         <>
         <div className={style.switch_Line}></div>
           <div style={{textAlign: 'right'}}>
-              <button className={style.addTopicBtn}> +
-               Add a Topic
-              </button>
-          </div>
+              <button className={style.addTopicBtn}>
+                 + Add a Topic
+              </button> 
+          </div> 
+           
           <div className={style.selectRoom}>
               <button className={room == "open" ? style.active : "" }
               onClick={() => setRoom("open")}
@@ -45,7 +46,7 @@ function StartRoom(props) {
         <div className="text-center">
          <button className={style.letGoBtn}  
           onClick={() => {
-            props.setsheetCreateRoom(true);
+            props.setSheetCreateRoom(true);
             props.setSheetVisible(true);
           }}>🚀Let's Go 
         </button>    
