@@ -22,7 +22,7 @@ function Home() {
     {loaderVisibility ? (
       <div style={{ 
       position: "fixed",
-      top: "0",
+      top: "-30px",
       right: "0",
       bottom: "0",
       left: "0",
