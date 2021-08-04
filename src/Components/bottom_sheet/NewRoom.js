@@ -53,6 +53,7 @@ function NewRoom(props) {
             props.setSheetVisible(false);
           }}> 
            <img src="./images/hand-peace.png" alt=""/>
+           Leave Quietly
           </button>
           <div>
             <button>

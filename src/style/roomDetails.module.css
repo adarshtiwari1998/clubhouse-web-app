@@ -94,3 +94,58 @@ color: #28ae61
     margin: 0 0.1em 0 0;
     line-height: 0.7;
 }
+
+.footer {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+}
+
+.footer button {
+    background-color: #e7e4d5;
+    border: none;
+    border-radius: 2.1em;
+}
+
+.footer img {
+    width: 30px;
+}
+
+.footer > button {
+    display: flex;
+    align-items: center;
+    padding: 0.3em 1.1em;
+    color: #28ae61;
+    font-weight: 500;
+}
+
+.footer>div {
+    display: flex;
+    align-items: center;
+}
+
+.footer>div>button {
+    display: flex;
+    line-height: 1;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer> div> button:first-child {
+    margin-right: 0.4em;
+    font-size: 1.5em
+}
+.footer> div> button:nth-child(2) {
+    margin-right: 0.5em;
+}
+.footer> div> button:nth-child(3) {
+    font-size: 1.5em
+}
