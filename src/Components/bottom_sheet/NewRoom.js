@@ -4,7 +4,7 @@ import { AiOutlineFile } from "react-icons/ai";
 import { BsMicMuteFill }  from "react-icons/bs";
 
 function NewRoom(props) {
-  const [micMuteVisible, setMicMuteVisible] = useState(false);
+  const [micMuteVisible, setMicMuteVisible] = useState(true);
   const card = props.cardDetail;
    return (
      <>
@@ -18,8 +18,35 @@ function NewRoom(props) {
             </div>
             <div>
             <AiOutlineFile />
-            <img src="./images/profile-pic.png" className={style.profile_img} alt="" />
+            <img src="./images/user-img-me.png" className={style.profile_img} alt="" />
           </div>
+          </div>
+           {/* body section */}
+          <div className={style.roomDetailSecCard}>
+            <div className="d-flex align-items-center justify-content-between flex-wrap"
+            style={{padding: "0.6em 1em"}}
+            >
+              {card.members.map((item) => (
+                <div className={style.memberContainerSec}>
+                  {micMuteVisible ?  (
+                  //if micmutevisible is true then 
+                  //then do this
+                  <div className={style.audio_icon}> 
+                      <BsMicMuteFill />
+                  </div>
+                  ) : (
+                  //do nothing
+                    "")}
+                  <img src="./images/user-img-me.png"  alt=""/>
+                  <p>
+                    <span>*</span>
+                    <span>
+                      {item.first_name} {item.last_name}
+                    </span>
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 </>

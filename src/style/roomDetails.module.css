@@ -30,3 +30,43 @@
 .containerHead svg {
     font-size: 1.4em;
 }
+
+.roomDetailSecCard {
+    background-color: #ffffff;
+    padding: 1em 1em 3em 1em;
+    border-radius: 1.5em 1.5em 0 0;
+    height: 82vh;
+    overflow: auto;
+}
+
+.roomDetailSecCard h6 {
+    font-size: 0.678em;
+    color: var(--textColor);
+    font-weight: 500;
+    margin-bottom: 0.4em
+}
+.roomDetailSecCard img {
+    width: 72px;
+    border-radius: 1.8em;
+}
+
+.memberContainerSec {
+    position: relative;
+    text-align: center;
+    width: 70px;
+}
+
+.memberContainerSec .audio_icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -5px;
+    bottom: 62px;
+    z-index: 5;
+    background-color: #ffffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 52%;
+    box-shadow: 0px 0px 3px #cccccc;
+}
