@@ -1,0 +1,70 @@
+{
+    "people" : [
+        {
+            "title" : "Adarsh Tripathi",
+             "description": "Front End Developer, Freelancer and CTO of Marketitup."
+        },
+        {
+            "title" : "Elon Musk",
+             "description": "He is the founder, CEO, and Chief Engineer at SpaceX; early stage investor, CEO, and Product Architect of Tesla, Inc.; founder of The Boring Company; and co-founder of Neuralink and OpenAI."
+        },
+        {
+            "title" : "Bill Gates",
+             "description": "William Henry Gates III is an American business magnate, software developer, investor, author, and philanthropist. He is a co-founder of Microsoft Corporation."
+        },
+        {
+            "title" : "Sundar Pichai",
+             "description": "He is the chief executive officer of Alphabet Inc. and its subsidiary Google."
+        }
+    ],
+    "conversation" : [
+        {
+            "title":"Website Development",
+            "description": "Osceola Gold, Inc. Continues Advancements With OTC Markets and Website Development."
+        },
+        {
+            "title":"IT Industry",
+            "description": "How Industry Disruptors Compete On Smart Device Innovation."
+        },
+        {
+            "title":"Languages",
+            "description": "Natural Language Processing Helps Assess COVID-19."
+        },
+        {
+            "title":"Identity",
+            "description": "WhatsApp chat with Gehana Vasisth reveals identity of Roy Evans, HotShots’ content head."
+        },
+        {
+            "title":"Sports",
+            "description": "Tokyo Olympics: Neeraj Chopra storms into men's javelin throw final."
+        },
+        {
+            "title":"Places",
+            "description": "Places in India you should NOT visit during the monsoons."
+        },
+        {
+            "title":"Life",
+            "description": "Glenmark Life Sciences IPO share allotment finalised: How to check status."
+        },
+        {
+            "title":"Knowledge",
+            "description": "The hegemony of knowledge and the new world order: U.S. and the rest of the world."
+        },
+        {
+            "title":"Entertainement",
+            "description": "South Koreans decode the rising global popularity of K-dramas."
+        },
+        {
+            "title":"Hanging Out",
+            "description": "Tokyo Olympics: Sky Brown's debut as much about hanging out with skateboarding mates as fight for medal."
+        },
+        {
+            "title":"Wellness",
+            "description": "Fully Vaccinated People Three Times Less Likely To Contact COVID-19."
+        },
+        {
+            "title":"World Affairs",
+            "description": "The BBC's World Affairs Editor John Simpson talks about his travels to Angola, Colombia and Iran."
+        }
+    ]
+}

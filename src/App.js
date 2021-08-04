@@ -8,6 +8,7 @@ import CodeConfirmations from './pages/CodeConfirmations';
 import AllowNotifications from './pages/AllowNotifications';
 import AppLayout from './pages/Layouts/AppLayout';
 import Home from './pages/Home';
+import Explore from "./pages/Explore";
 
 function App() {
   return (
