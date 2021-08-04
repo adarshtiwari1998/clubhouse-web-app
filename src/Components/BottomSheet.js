@@ -7,9 +7,10 @@ import NewRoom from "./bottom_sheet/NewRoom";
 
 function BottomSheet(props) {
     return (
-       <SwipeableBottomSheet style={{width: "35%", margin: "auto"}}
-       open={props.sheetVisible}
-        onChange={() => {
+       <SwipeableBottomSheet style={{width: "36.4%", margin: "auto", borderRadius: "40%"}}
+      //  id={style["bottomSheetContainerMain"]}
+         open={props.sheetVisible}
+         onChange={() => {
          props.setSheetVisible(!props.sheetVisible);
          props.setItemsVisible(true);
         }}

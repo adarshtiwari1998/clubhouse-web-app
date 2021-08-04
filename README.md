@@ -15,3 +15,7 @@ There are two layout structure in this webapp
 using this command to forcely download the npm packages when the packages are creating error when installing 
 npm install --force [and the packages name]
 
+> git remote set-url origin <your url>
+
+> Git cheat sheet <https://gist.github.com/hofmannsven/6814451>
+

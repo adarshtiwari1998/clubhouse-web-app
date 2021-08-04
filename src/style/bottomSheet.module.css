@@ -1,7 +1,21 @@
+#bottomSheetContainerMain {
+     max-width: 100%;
+     margin: 0 auto;
+}
 
+
+@media screen and (max-width: 762px) {
+    #bottomSheetContainerMain {
+        width: 100%;
+        background: blue;
+        max-width: 10%;
+        height: auto;
+        border-radius: 50%;
+    }
+}
 .BottomSheetContainer {
     background-color: #ffffff;
-    border-radius: 1.5em 1.5em 0 0;
+    border-radius: 2.5em 1.5em 0 0;
     padding: 1.5em 1em;
     position: relative;
     height: 100%;
