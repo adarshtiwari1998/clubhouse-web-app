@@ -70,3 +70,27 @@
     border-radius: 52%;
     box-shadow: 0px 0px 3px #cccccc;
 }
+
+.memberContainerSec .audio_icon svg {
+color: #28ae61
+}
+
+.memberContainerSec p {
+    display: flex;
+    align-items: center;
+    line-height: 1.3em;
+    font-size: 1em;
+    font-weight: 500;
+    color: #000000
+}
+.memberContainerSec span {
+    display: inline-block;
+    font-size: 2.5em;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #28ae61;
+    color: #ffffff;
+    margin: 0 0.1em 0 0;
+    line-height: 0.7;
+}

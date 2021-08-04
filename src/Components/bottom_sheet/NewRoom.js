@@ -40,9 +40,7 @@ function NewRoom(props) {
                   <img src="./images/user-img-me.png"  alt=""/>
                   <p>
                     <span>*</span>
-                    <span>
                       {item.first_name} {item.last_name}
-                    </span>
                   </p>
                 </div>
               ))}
