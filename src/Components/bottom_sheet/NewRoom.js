@@ -9,18 +9,17 @@ function NewRoom(props) {
    return (
      <>
         <div className={style.roomDetailContainer}>
-          <div className={style.head}>
+          <div className={style.containerHead}>
             <div className={"d-flex align-items-center"}>
-             <a href="#" onClick={() => {props.setSheetVisible(false)}}
-              >
+             <a onClick={() => {props.setSheetVisible(false)}}>
                 <img src="./images/arrow.png" className={style.arrow_icon} alt="" />
                 <span>Adarsh</span>
               </a>
             </div>
-          </div>
-          <div>
+            <div>
             <AiOutlineFile />
-            <img src="./images/user-img.jpg" className={style.profile_img} alt="" />
+            <img src="./images/profile-pic.png" className={style.profile_img} alt="" />
+          </div>
           </div>
         </div>
 </>
