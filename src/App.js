@@ -23,7 +23,7 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={["/home"]} >
+      <Route exact path={["/home", "/explore"]} >
         <AppLayout>
           <Switch>
             {/* there are multiple ways to passing a components */}
@@ -32,6 +32,7 @@ function App() {
             {/* Second ways */}
             {/* we try this ways */}
             <Route exact path="/home" component={() => <Home />}></Route>
+            <Route exact path="/explore" component={() => <Explore />}></Route>
           </Switch>
         </AppLayout>
       </Route>
