@@ -8,8 +8,8 @@ import {Link} from "react-router-dom";
       return (
       <div className={style.exploreSubHeader}>
         <Link to="/home" >
-            <img src="./images/arrow.png" />
-        </Link>
+        <img src="./images/arrow.png" />
+         </Link>
         <h3>{props.pageTitle}</h3>
       </div>
       );

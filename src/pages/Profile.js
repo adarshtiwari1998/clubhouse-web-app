@@ -26,7 +26,7 @@ import {AiOutlineSetting, AiOutlineTwitter, AiOutlineInstagram, AiOutlineLinkedi
        <p>@AdarshTripathi1998</p>
        <div className={style.followSec}>
            <p>
-               <span>0</span> Followers
+               <span>43</span> Followers
            </p>
            <p>
                <span>51</span> Following
@@ -44,7 +44,7 @@ import {AiOutlineSetting, AiOutlineTwitter, AiOutlineInstagram, AiOutlineLinkedi
         <AiOutlineLinkedin /> Add Linkedin
         </button>
        </div>
-       <div className={style.nominatedName}>
+       <div className={style.nominatedNameSec}>
         <img src="./images/user-img-me.png" alt=""/>
         <div>
             <p>Joined 08-Aug 2020</p>
