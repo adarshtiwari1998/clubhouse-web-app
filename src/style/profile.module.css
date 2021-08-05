@@ -1,0 +1,33 @@
+.profileContainer {
+    height: 100%;
+    overflow: auto;
+    padding: 0 0.5em;
+    padding-top: 5em;
+}
+.actionBtn {
+    text-align: right
+}
+
+.actionBtn svg {
+    font-size: 2em;
+    margin-right: 1em;
+}
+.actionBtn > svg:last-child {
+  margin-right: 0
+}
+
+.profileContainer .profile_img {
+    width: 82px;
+    border-radius: 2.2em
+}
+.profileContainer h4 {
+   font-size: 1.5em;
+   color: var(--textColor);
+   margin: 0.5em 0 0.1em 0;
+}
+
+.profileContainer p {
+    font-size: 1.1em;
+    color: #aaaaaa;
+    margin: 0;
+}

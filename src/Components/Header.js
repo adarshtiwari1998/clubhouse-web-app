@@ -19,7 +19,7 @@ function Header() {
                     <img src="/images/noti.png" alt="notifications image" />
                 </Link>
                 <Link exact to="/profile">
-                    <img src="/images/b1.png" alt="avatar image" />
+                    <img src="/images/user-img-me.png" alt="profile_image" />
                 </Link>
             </div>
         </div>
