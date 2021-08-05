@@ -6,9 +6,9 @@ import {Link} from "react-router-dom";
     function SubHeader(props) {  /* but props are easier you can give n number of arguments with passing props
     */
       return (
-      <div className={style.subHeader}>
+      <div className={style.exploreSubHeader}>
         <Link to="/home" >
-            <img src="./images/arrow.png" alt="" />
+            <img src="./images/arrow.png" />
         </Link>
         <h3>{props.pageTitle}</h3>
       </div>

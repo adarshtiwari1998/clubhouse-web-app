@@ -9,6 +9,7 @@ import AllowNotifications from './pages/AllowNotifications';
 import AppLayout from './pages/Layouts/AppLayout';
 import Home from './pages/Home';
 import Explore from "./pages/Explore";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={["/home", "/explore"]} >
+      <Route exact path={["/home", "/explore", "/profile"]} >
         <AppLayout>
           <Switch>
             {/* there are multiple ways to passing a components */}
@@ -33,6 +34,7 @@ function App() {
             {/* we try this ways */}
             <Route exact path="/home" component={() => <Home />}></Route>
             <Route exact path="/explore" component={() => <Explore />}></Route>
+            <Route exact path="/profile" component={() => <Profile />}></Route>
           </Switch>
         </AppLayout>
       </Route>
