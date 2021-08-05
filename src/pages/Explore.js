@@ -11,14 +11,19 @@ function Explore() {
             <div className={style.peopleContainer}>
               {people.map((item) => (
                   <div>
-                     <div className="d-flex align-item-center">
+                     <div className="d-flex align-items-center">
                         <img src="./images/user-img-me.png" alt="" />
                         <div className="ml-2">
                          <h5>{item.title}</h5>
+                         <p>{item.description}</p>
                         </div>
                      </div>
+                     <button>Follow</button>
                   </div>
-              ))}
+              ))} 
+              <button className={style.showMore}>
+                  Show More People <DownOutlined />
+              </button>
             </div>
         </div>
     )
