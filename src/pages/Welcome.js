@@ -13,7 +13,7 @@ function Welcome() {
             </div>
             <div className={style.actionBtn}>
                 <Link
-                    exact to="/get_username"
+                    exact to="/invite"
                     className="primaryBtn d-flex mb-3 align-items-center" >
                     Get Your Username{""}
                     {/* <img src="" /> */}
