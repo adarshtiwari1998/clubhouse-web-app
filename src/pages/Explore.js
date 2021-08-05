@@ -3,14 +3,17 @@ import style from "../style/explore.module.css";
 import { DownOutlined, FireOutlined } from "@ant-design/icons";
 import {Input} from "antd";
 import data from "../Data/exploreData.json"
+import SubHeader from "../Components/SubHeader";
 
 function Explore() {
     const { people, conversation } = data;
+    
     return (
         <div className={style.exploreContainer}>
             {/* mainheader */}
             <div className={style.exploreheader}>
               {/* subheader */}
+              <SubHeader pageTitle="Explore" />
               <Input style={{
                backgroundColor: "#f4f4f4",
                borderRadius: "0.9em",

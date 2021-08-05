@@ -19,10 +19,11 @@
 
 .exploreheader input{
     background-color: #fdfdfd;
-    padding: 0;
 }
 /* subheader styling */
-
+.subHeader img {
+    width: 15px;
+}
 
 
 
