@@ -8,7 +8,7 @@ import { BsGrid3X3Gap } from "react-icons/bs";
 import data from "../Data/RoomCard.json";
 import BottomSheet from "../Components/BottomSheet";
 import loadertwoimg from "../images/loader.gif";
-import NewRoomData from "../Data/newRoom.json";
+import NewRoomData from "../Data/newRoomData.json";
 
 function Home() {
   const [itemsVisible, setItemsVisible] = useState(true);
