@@ -10,6 +10,7 @@ import AppLayout from './pages/Layouts/AppLayout';
 import Home from './pages/Home';
 import Explore from "./pages/Explore";
 import Profile from "./pages/Profile";
+import Activity from "./pages/Activity";
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           </Switch>
         </PlanLayout>
       </Route>
-      <Route exact path={["/home", "/explore", "/profile"]} >
+      <Route exact path={["/home", "/explore", "/profile", "/activity"]} >
         <AppLayout>
           <Switch>
             {/* there are multiple ways to passing a components */}
@@ -35,6 +36,7 @@ function App() {
             <Route exact path="/home" component={() => <Home />}></Route>
             <Route exact path="/explore" component={() => <Explore />}></Route>
             <Route exact path="/profile" component={() => <Profile />}></Route>
+            <Route exact path="/activity" component={() => <Activity />}></Route>
           </Switch>
         </AppLayout>
       </Route>

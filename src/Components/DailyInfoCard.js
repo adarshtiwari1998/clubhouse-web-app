@@ -3,7 +3,7 @@ import style from "../style/dailyInfoCard.module.css"
 import Data from "../Data/DailyCard.json";
 
 function DailyInfoCard() {
-    console.log(Data[0].title)
+    // console.log(Data[0].title)
     return (
         <div className={style.daily_Card}>
             {/* looping here */}
