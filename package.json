@@ -2,7 +2,7 @@
   "name": "clubhouse-web-app",
   "version": "0.1.0",
   "engines": {
-    "node": "14.7.0"
+    "node": ">=8"
   },
   "private": true,
   "dependencies": {
