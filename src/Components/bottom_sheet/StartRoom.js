@@ -15,7 +15,7 @@ function StartRoom(props) {
           </div> 
            
           <div className={style.selectRoom}>
-              <button className={room == "open" ? style.active : "" }
+              <button className={room === "open" ? style.active : "" }
               onClick={() => setRoom("open")}
               >
               <div>
@@ -23,7 +23,7 @@ function StartRoom(props) {
               </div>
               Open
               </button>
-              <button className={room == "social" ? style.active : "" }
+              <button className={room === "social" ? style.active : "" }
               onClick={() => setRoom("social")}
               >
               <div>
@@ -31,7 +31,7 @@ function StartRoom(props) {
               </div>
               Social
               </button>
-              <button className={room == "closed" ? style.active : "" }
+              <button className={room === "closed" ? style.active : "" }
               onClick={() => setRoom("closed")}
               >
               <div>
@@ -42,7 +42,7 @@ function StartRoom(props) {
           </div>  
           <p>Start a Room {" "}
          {/* multiple nested if else statement */}
-        <span>{room == "closed" ? "for people i choose" : room == "social" ? "with people i follow" : "open to everyone"}</span></p>  
+        <span>{room === "closed" ? "for people i choose" : room === "social" ? "with people i follow" : "open to everyone"}</span></p>  
         <div className="text-center">
          <button className={style.letGoBtn}  
           onClick={() => {

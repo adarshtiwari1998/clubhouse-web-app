@@ -14,11 +14,11 @@ function BottomSheet(props) {
          props.setSheetVisible(!props.sheetVisible);
          props.setItemsVisible(true);
         }}
-        fullScreen={props.sheetTitle == "room detail" ? true : false} >
+        fullScreen={props.sheetTitle === "room detail" ? true : false} >
         <div className={style.BottomSheetContainer} 
-         style={{backgroundColor: props.sheetTitle == "profile" ? "transparent" : ""}}>
+         style={{backgroundColor: props.sheetTitle === "profile" ? "transparent" : ""}}>
          {/* nested statement  */}
-         {props.sheetTitle == "new room" ? ( 
+         {props.sheetTitle === "new room" ? ( 
          <NewRoom
            cardDetail={props.cardDetail}
            setSheetVisible={(item) => {
@@ -27,7 +27,7 @@ function BottomSheet(props) {
            }}
            />
           //nested ternery operator 
-         ) : props.sheetTitle == "start room" ? (
+         ) : props.sheetTitle === "start room" ? (
             <StartRoom 
             setSheetCreateRoom={props.setSheetCreateRoom} 
             setSheetVisible={(item) => {

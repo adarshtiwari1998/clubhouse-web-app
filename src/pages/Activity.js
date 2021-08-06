@@ -4,7 +4,7 @@ import exploreStyle from "../style/explore.module.css";
 import { CalendarOutlined } from "@ant-design/icons";
 import profilestyle from "../style/profile.module.css";
 import {Link} from "react-router-dom";
-import {data} from "../Data/activity.json"
+// import {data} from "../Data/activity.json"
 import SubHeader from "../Components/SubHeader";
 
 function Explore() {
